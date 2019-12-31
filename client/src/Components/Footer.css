@@ -1,0 +1,10 @@
+footer {
+    flex-shrink: 0;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+}

@@ -8,11 +8,12 @@ const app = express()
 const port = process.env.PORT || 5000
 
 const T = new Twit({
-    consumer_key: process.env.REACT_APP_CONSUMER_KEY,
-    consumer_secret: process.env.REACT_APP_CONSUMER_SECRET,
-    access_token: process.env.REACT_APP_ACCESS_TOKEN,
-    access_token_secret: process.env.REACT_APP_ACCESS_TOKEN_SECRET,
-    timeout_ms: 60*1000
+    consumer_key: 'hPezKqWsQ1f4W5C9ecWwPhzSE',
+    consumer_secret: 'nmjAhu5aDk1snFp5X1omEOUS4WEdI27Ea28sWqiBgzHfG7yOqU',
+    //access_token: '1187225023968235523-edmRMjkJAg06m3vvm5GivwQJdEASUa',
+    //access_token_secret: '1wfrMHFtBXvqYHHWRWwJXOMIVTCs1D9IUvbwSbTLkBFTH',
+    //timeout_ms: 60*1000
+    app_only_auth: true
 })
 
 app.use(bodyParser.json())

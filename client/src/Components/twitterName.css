@@ -1,3 +1,32 @@
+.jumbo-wrapper {
+    margin: 15px;
+    flex: 1 0 auto;
+    background-color: white;
+    flex-direction: column;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1.6;
+}
+
 .jumbotron {
     text-align: center;
 }
@@ -7,8 +36,55 @@
     color: white;
 }
 
-.Collapsible {
-    background-color: #008CBA;
+.InfoChart {
+    background-color: rgb(55, 202, 252);
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    width: 25%;
+    border-radius: 12px;
+}
+
+.openedChart {
+    background-color: rgb(55, 202, 252);
+    display: inline-block;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.tableContainer {
+    background-color: rgb(55, 202, 252);
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    width: 25%;
+    border-radius: 12px;
+}
+
+.openedTable {
+    background-color: white;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.openTriggerTable {
+    color: black;
+}
+
+@media screen and (min-width: 800px) {
+    .column {
+        flex: 1
+    }
+
+    .double-column {
+        flex: 1.6
+    }
 }
 
 

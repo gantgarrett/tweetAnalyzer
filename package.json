@@ -20,6 +20,7 @@
     "react-bootstrap": "^1.0.0-beta.16",
     "react-chartjs-2": "^2.8.0",
     "react-collapsible": "^2.6.2",
+    "react-modal": "^3.11.1",
     "sentiment": "^5.0.2",
     "twit": "^2.2.11"
   },

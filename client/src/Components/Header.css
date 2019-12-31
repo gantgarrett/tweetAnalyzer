@@ -1,5 +1,7 @@
 /* Styled header with grey background and some padding */
 .header {
+    display: flex;
+    justify-content: space-evenly;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     padding: 20px 10px;
@@ -24,20 +26,40 @@
 }
 
 /* Change the background color on mouse-over */
-.header a:hover {
+/*.header a:hover {
     background-color: #ddd;
     color: black;
-}
+}*/
 
 /* Styled the active/current link */
-.header a.active {
+/*.header a.active {
     background-color: dodgerblue;
     color: white;
-}
+}*/
 
 /* Float the link section to the right */
 .header-right {
     float: right;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.info {
+    border-color: #2196F3;
+    color: dodgerblue
+}
+  
+.info:hover {
+    background: #2196F3;
+    color: white;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
