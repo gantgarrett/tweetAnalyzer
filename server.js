@@ -8,11 +8,7 @@ const app = express()
 const port = process.env.PORT || 5000
 
 const T = new Twit({
-    consumer_key: 'hPezKqWsQ1f4W5C9ecWwPhzSE',
-    consumer_secret: 'nmjAhu5aDk1snFp5X1omEOUS4WEdI27Ea28sWqiBgzHfG7yOqU',
-    //access_token: '1187225023968235523-edmRMjkJAg06m3vvm5GivwQJdEASUa',
-    //access_token_secret: '1wfrMHFtBXvqYHHWRWwJXOMIVTCs1D9IUvbwSbTLkBFTH',
-    //timeout_ms: 60*1000
+    //twitter credentials
     app_only_auth: true
 })
 
